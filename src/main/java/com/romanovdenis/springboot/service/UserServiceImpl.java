@@ -1,11 +1,9 @@
 package com.romanovdenis.springboot.service;
 
-import com.romanovdenis.springboot.dao.UserDao;
 import com.romanovdenis.springboot.model.User;
-import com.romanovdenis.springboot.model.UserRepository;
+import com.romanovdenis.springboot.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
